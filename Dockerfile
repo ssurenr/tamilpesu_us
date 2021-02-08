@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:slim
 
 # These two environment variables prevent __pycache__/ files.
 ENV PYTHONUNBUFFERED 1
