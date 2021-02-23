@@ -1,0 +1,5 @@
+                ok = not True
+                print(traceback.format_exc())
+                json_string = json.dumps({'error':'oopsla'})
+                response = HttpResponse(json_string, content_type="application/json; charset=utf-8")
+                return response
